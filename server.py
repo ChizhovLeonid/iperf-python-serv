@@ -14,7 +14,7 @@ def fuck():
 def iperf_command_start():
     request_data = request.get_json()
 
-    loginauth = 'secret key' #enter here you secret combination, it need to security
+    loginauth = 'secretkey' #enter here you secret combination, it need to security
     command = 'start' #its a alias command, need too
 
     if request_data:
@@ -28,7 +28,7 @@ def iperf_command_start():
 def iperf_command_stop():
     request_data = request.get_json()
 
-    loginauth = 'secret key' #enter here you secret combination, it need to security
+    loginauth = 'secretkey' #enter here you secret combination, it need to security
     command = 'stop' #its a alias command, need too
 
     if request_data:
